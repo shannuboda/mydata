@@ -22,35 +22,35 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background-color: RED;
   color: white;
 }
 </style>
 </head>
 <body>
+<h1 align="center"> SVCK SUPPLY APPLICATION SUBJECTS </h1>
+<h2> Name : <bold>B.SHANMUKHA SUBRAMANI</bold> </h2>
+<h2> Roll Number : 19KH1A0512</h2>
+<h2> COMPUTER SCIENCE AND ENGINEERING</h2>
 <table id="customers">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>SUBJECT</th>
+    <th>PASS/FAIL</th>
     <th>select</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>ALGEBRA & CALCULAS</td>
+    <td>PASS</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
   <tr>
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
+    <td> CHEMISTRY</td>
+    <td>FAIL</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>PROBLEM SOLVING & PROGRAMMING</td>
+    <td>PASS</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
   <tr>
