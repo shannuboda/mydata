@@ -59,6 +59,18 @@ if(password=="19KH1A0501")
   </tr>
 </table>
 	<p><input type="button" onclick='window.print()' value="print out "/></p>
+else
+{
+alert('You Enterd A Wrong Hall Ticket Number Please Refresh The Page And Try Again');
 }
+function confirmRefresh() {
+var okToRefresh = confirm("Do you really want to refresh the page?");
+if (okToRefresh)
+	{
+			setTimeout("location.reload(true);");
+	}
+}
+//-->
+</script>
 </body>
 </html>
