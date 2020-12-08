@@ -51,48 +51,6 @@
     <td>PASS</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
 </table>
 	<p><input type="button" onclick='window.print()' value="print out "/></p>
 </body>
