@@ -26,6 +26,12 @@
 </style>
 </head>
 <body>
+	<script language="javascript">
+<!--hide
+var password;
+password=prompt('ENTER YOUR HALLTICKET NUMBER ','');
+if(password=="19KH1A0501")
+{
 <h1 align="center"> SVCK SUPPLY APPLICATION SUBJECTS </h1>
 <h2> Name : <bold>B.SHANMUKHA SUBRAMANI</bold> </h2>
 <h2> Roll Number : 19KH1A0512</h2>
@@ -53,5 +59,6 @@
   </tr>
 </table>
 	<p><input type="button" onclick='window.print()' value="print out "/></p>
+}
 </body>
 </html>
