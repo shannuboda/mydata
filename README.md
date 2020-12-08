@@ -26,12 +26,6 @@
 </style>
 </head>
 <body>
-	<script language="javascript">
-<!--hide
-var password;
-password=prompt('ENTER YOUR HALLTICKET NUMBER ','');
-if(password=="19KH1A0501")
-{
 <h1 align="center"> SVCK SUPPLY APPLICATION SUBJECTS </h1>
 <h2> Name : <bold>B.SHANMUKHA SUBRAMANI</bold> </h2>
 <h2> Roll Number : 19KH1A0512</h2>
@@ -59,18 +53,5 @@ if(password=="19KH1A0501")
   </tr>
 </table>
 	<p><input type="button" onclick='window.print()' value="print out "/></p>
-else
-{
-alert('You Enterd A Wrong Hall Ticket Number Please Refresh The Page And Try Again');
-}
-function confirmRefresh() {
-var okToRefresh = confirm("Do you really want to refresh the page?");
-if (okToRefresh)
-	{
-			setTimeout("location.reload(true);");
-	}
-}
-//-->
-</script>
 </body>
 </html>
