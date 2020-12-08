@@ -1,5 +1,3 @@
-# mydata
-<!DOCTYPE html>
 <html>
 <head>
 <style>
