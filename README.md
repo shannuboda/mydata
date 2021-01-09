@@ -51,7 +51,45 @@
     <td>PASS</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
-</table>
+  <tr>
+  <td> <label class="w3-text-green"><b>TOTAL APPLIED SUBJECTS </b></label><td>
+	<td>
+    <form name="frm-pin" method="post" action="pin-index-a.php">
+        <input type="hidden" name="mode" value="PinRequest" />
+        <select name="tot_pin_requested" onchange="calculateAmount(this.value)" required>
+			<option value="" disabled selected>Choose your option</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="10">11</option>
+			<option value="10">12</option>
+			<option value="10">13</option>
+			<option value="10">14</option>
+			<option value="10">15</option>
+		</select>
+		</td>
+		<tr>
+        <td><b>Total Amount</b></td>
+        <td><input class="w3-input w3-border" name="tot_amount" id="tot_amount" type="text" readonly></td>
+        <script>
+            function calculateAmount(val) {
+                var tot_price = val * 150;
+                /*display the result*/
+                var divobj = document.getElementById('tot_amount');
+                divobj.value = tot_price;
+            }
+        </script>
+		</tr>
+		</table>
 	<p><input type="button" onclick='window.print()' value="print out "/></p>
+	
+
 </body>
 </html>
