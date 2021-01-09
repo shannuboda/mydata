@@ -48,9 +48,7 @@
   </tr>
   <tr>
     <td>PROBLEM SOLVING & PROGRAMMING</td>
-    <td>PASS</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
+    <td>PASS</td><td>  <input type="checkbox" id="male" name="gender" value="male"></td></tr>
   <tr>
   <td> <label class="w3-text-green"><b>TOTAL APPLIED SUBJECTS </b></label><td>
 	<td>
