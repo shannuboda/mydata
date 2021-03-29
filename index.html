@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -21,80 +20,76 @@
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #4CAF50;
+  background-color: RED;
   color: white;
 }
 </style>
 </head>
 <body>
+<h1 align="center"> SVCK SUPPLY APPLICATION SUBJECTS </h1>
+<h2> Name : <bold>B.SHANMUKHA SUBRAMANI</bold> </h2>
+<h2> Roll Number : 19KH1A0512</h2>
+<h2> COMPUTER SCIENCE AND ENGINEERING</h2>
 <table id="customers">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>SUBJECT</th>
+    <th>PASS/FAIL</th>
     <th>select</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>ALGEBRA & CALCULAS</td>
+    <td>PASS</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
   <tr>
-    <td>Berglunds snabbköp</td>
-    <td>Christina Berglund</td>
-    <td>Sweden</td>
+    <td> CHEMISTRY</td>
+    <td>FAIL</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>PROBLEM SOLVING & PROGRAMMING</td>
+    <td>PASS</td>
     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
   </tr>
   <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Königlich Essen</td>
-    <td>Philip Cramer</td>
-    <td>Germany</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-     <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>North/South</td>
-    <td>Simon Crowther</td>
-    <td>UK</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-  <tr>
-    <td>Paris spécialités</td>
-    <td>Marie Bertrand</td>
-    <td>France</td>
-    <td>  <input type="checkbox" id="male" name="gender" value="male"></td>
-  </tr>
-</table>
+  <td> <label class="w3-text-green"><b>TOTAL APPLIED SUBJECTS </b></label><td>
+	<td>
+    <form name="frm-pin" method="post" action="pin-index-a.php">
+        <input type="hidden" name="mode" value="PinRequest" />
+        <select name="tot_pin_requested" onchange="calculateAmount(this.value)" required>
+			<option value="" disabled selected>Choose your option</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="10">11</option>
+			<option value="10">12</option>
+			<option value="10">13</option>
+			<option value="10">14</option>
+			<option value="10">15</option>
+		</select>
+		</td>
+		<tr>
+        <td><b>Total Amount</b></td>
+        <td><input class="w3-input w3-border" name="tot_amount" id="tot_amount" type="text" readonly></td>
+        <script>
+            function calculateAmount(val) {
+                var tot_price = val * 150;
+                /*display the result*/
+                var divobj = document.getElementById('tot_amount');
+                divobj.value = tot_price;
+            }
+        </script>
+		</tr>
+		</table>
 	<p><input type="button" onclick='window.print()' value="print out "/></p>
+	
+
 </body>
 </html>
